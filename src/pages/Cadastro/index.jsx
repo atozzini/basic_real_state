@@ -30,7 +30,6 @@ const Cadastro = () => {
       .catch(() => {
         console.log('Erro: Erro no sistema.')
     })
-    // console.log(data);
   }
 
   return (
@@ -60,7 +59,7 @@ const Cadastro = () => {
             placeholder="Informe sua senha"
             onChange={InputValue}
           />
-          <Button type="submit">Fazer Login</Button>
+          <Button type="submit">Cadastrar</Button>
         </Form>
       </ContainerForm>
 
